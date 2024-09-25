@@ -3,7 +3,8 @@ src = "src"
 out = "out"
 libs = ["lib"]
 remappings = ['@openzeppelin/contracts=lib/openzeppelin-contracts/contracts']
-is-system = true
+# is-system = true
+--system-mode = true
 via-ir = true
 fs_permissions = [
     { access = "read", path = "./broadcast" },
