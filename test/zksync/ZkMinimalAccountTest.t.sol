@@ -72,7 +72,7 @@ contract ZkMinimalAccountTest is Test, ZkSyncChainChecker {
         // Assert
         assertEq(magic, ACCOUNT_VALIDATION_SUCCESS_MAGIC);
     }
-
+ 
     /*//////////////////////////////////////////////////////////////
                                 HELPERS
     //////////////////////////////////////////////////////////////*/
